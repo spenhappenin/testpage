@@ -1,24 +1,26 @@
 # Build a page
 
 ## Instructions
-1. Clone master branch
+1. Fork this repo
 
-2. Create create a new branch name [First Name]-[Last Name]
+2. Clone master branch locally
 
-3. Create a page that looks like Layout.png. 
+3. Create create a new branch name [First Name]-[Last Name]
 
-4. This page should be responsive, we will be testing in Chrome for desktop, iPad and iPhone devices.
+4. Create a page that looks like Layout.png. 
 
-5. Use arial for all fonts, use best guess for font sizes (doesn't need to be exact)
+5. This page should be responsive, we will be testing in Chrome for desktop, iPad and iPhone devices.
 
-6. The red hex color is #B20636
+6. Use arial for all fonts, use best guess for font sizes (doesn't need to be exact)
 
-7. The green color used is #ACBCBB
+7. The red hex color is #B20636
+
+8. The green color used is #ACBCBB
 
 ## Complete
-1. Push your branch up to bitbucket and create a pull request to master
+1. Push your branch up and create a pull request to master
 
-2. Email Stephen Armas <Stephen.Armas@chghealthcare.com> and Tom Sharrock <tom.sharrock@chghealthcare.com> that you have completed the challenge and how long it took
+2. Email Stephen Armas <Stephen.Armas@chghealthcare.com> and Tom Sharrock <tom.sharrock@chghealthcare.com> that you have completed the challenge. Please include your github account ame and how long the task took to complete.
 
 ## Hints
 - Bootstrap and other libraries are encouraged
