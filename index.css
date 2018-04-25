@@ -1,0 +1,56 @@
+body {
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 0.5px solid rgb(210, 24, 24);
+  height: 100vh;
+}
+
+.header {
+  border: 0.5px solid rgb(40, 81, 215);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.phone-number {
+  color: #b20636;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  background-color: #acbcbb;
+  height: 300px;
+}
+
+.banner-img {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./assets/girl-on-phone.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  height: 100%;
+  color: white;
+}
+
+.main-container {
+  border: 1px solid rgb(215, 143, 10);
+  height: 500px;
+}
+
+.content-container {
+  border: 1px solid rgb(25, 135, 25);
+  height: 500px;
+}
+
+.form-container {
+  border: 1px solid rgb(176, 54, 195);
+  height: 500px;
+}
+
+.footer {
+  height: 125px;
+  background-color: grey;
+}
