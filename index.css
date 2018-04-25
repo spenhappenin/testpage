@@ -1,12 +1,12 @@
 body {
+  /* border: 0.5px solid rgb(210, 24, 24); */
   padding-right: 5px;
   padding-left: 5px;
-  border: 0.5px solid rgb(210, 24, 24);
   height: 100vh;
 }
 
+/*   ---  HEADER  ---   */
 .header {
-  border: 0.5px solid rgb(40, 81, 215);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -15,13 +15,16 @@ body {
 
 .phone-number {
   color: #b20636;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+/*   ---  BANNER  ---   */
 .banner-container {
   display: flex;
   justify-content: center;
   background-color: #acbcbb;
-  height: 300px;
+  height: 400px;
 }
 
 .banner-img {
@@ -35,21 +38,50 @@ body {
   color: white;
 }
 
+/*   ---  MAIN  ---   */
 .main-container {
-  border: 1px solid rgb(215, 143, 10);
-  height: 500px;
+  height: 700px;
+}
+
+.main-content-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.checkmark {
+  margin-right: 25px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .content-container {
-  border: 1px solid rgb(25, 135, 25);
-  height: 500px;
+  height: 700px;
 }
 
 .form-container {
-  border: 1px solid rgb(176, 54, 195);
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #acbcbb;
+  height: 700px;
 }
 
+.form {
+  width: 100%;
+}
+
+
+/*   ---  TESTIMONIALS  ---   */
+.testimonials-container {
+
+}
+
+
+/*   ---  FOOTER  ---   */
 .footer {
   height: 125px;
   background-color: grey;
