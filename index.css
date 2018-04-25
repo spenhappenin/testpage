@@ -80,9 +80,21 @@ ul {
 
 }
 
+.testimonial {
+  background-color: #ebfff7;
+  padding: 25px;
+  border-left: 5px solid #e3e3e3;
+}
+
+.h-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /*   ---  FOOTER  ---   */
 .footer {
+  color: white;
   height: 125px;
   background-color: grey;
 }
