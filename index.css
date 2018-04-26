@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+/*   ---  HEADER  ---   */
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header h4 {
+  color: #b20636;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*   ---  BANNER  ---   */
+
+.banner-container {
+  background-color: #acbcbb;
+  display: flex;
+  height: 385px;
+  justify-content: center;
+}
+
+.banner-img {
+  background-image: url('./assets/girl-on-phone.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 32px 10px 10px 32px;
+  width: 85%;
+}
+
+.banner-img div {
+  width: 40%;
+}
+
+@media (max-width: 600px) {
+  .banner-img {
+    background-position: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-img div {
+    width: 100%;
+  }
+}
+
+/*   ---  MAIN  ---   */
+
+.main-container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.main-container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  padding: 45px 65px 45px 65px;
+}
+
+.main-content-header {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.checkmark {
+  margin-right: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 23px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.form-container {
+  align-items: center;
+  background-color: #acbcbb;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 55px 40px;
+}
+
+.form-container p {
+  color: #555555;
+}
+
+.form-container span {
+  color: #b20636;
+  font-weight: bold;
+}
+
+.form {
+  width: 100%;
+}
+
+.form input {
+  border: 1px solid #b7b7b7;
+  height: 50px;
+}
+
+.form input::placeholder {
+  color: #acbcbb;
+}
+
+form > :nth-last-child(2) > input::placeholder {
+  color: rgb(67, 67, 67);
+}
+
+.form button {
+  background: transparent;
+  border: 1px solid #b20636;
+  color: #b20636;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 84px;
+}
+
+.form button:hover {
+  background: #b20636;
+  color: white;
+  transition: background 0.5s ease;
+}
+
+/*   ---  TESTIMONIALS  ---   */
+
+.testimonials-container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.testimonials-container h3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 65px;
+}
+
+.testimonials-container .row {
+  padding: 10px 100px 65px 100px;
+}
+
+@media (max-width: 766px) {
+  .testimonials-container .row {
+    padding: 10px 50px 65px 50px;
+  } 
+
+  .testimonial {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.testimonial {
+  background-color: #ebfff7a1;
+  border-left: 5px solid #e3e3e3;
+  padding: 25px;
+}
+
+.testimonial p {
+  color: #555555;
+}
+
+.testimonial span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.h-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/*   ---  FOOTER  ---   */
+
+.footer {
+  background-color: grey;
+  color: white;
+  padding: 25px 130px 40px 130px;
+}
+
+@media (max-width: 766px) {
+  .footer {
+    padding: 25px 75px 40px 75px;
+  }
+}
